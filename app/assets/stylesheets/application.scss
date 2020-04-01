@@ -16,15 +16,4 @@
 
  // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
-html, body {
-    background: #282727;
-}
-a {
-    color: white;
-}
-a:hover{
-    color: red;
-}
-h1 {
-    color: white;
-}
+ @import "artists.scss"
